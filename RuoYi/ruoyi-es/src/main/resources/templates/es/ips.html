@@ -15,32 +15,26 @@
 							<li>
 								搜索action <input type="text" id="keyword" list="id_action" />
 								<datalist id="id_action" ></datalist>
-<!--								<a class="btn btn-warning" onclick="searchAction()"><i ></i>搜索action</a>-->
 							</li>
 							<li>
 								搜索dstIP <input type="text" id="keyword1" list="id_dstIP" />
 								<datalist id="id_dstIP" ></datalist>
-<!--								<a class="btn btn-warning" onclick="searchDstIP()"><i ></i>搜索dstIP</a>-->
 							</li>
 							<li>
 								搜索dstPort <input type="text" id="keyword2" list="id_dstPort" />
 								<datalist id="id_dstPort" ></datalist>
-<!--								<a class="btn btn-warning" onclick="searchAction()"><i ></i>搜索dstPort</a>-->
 							</li>
 							<li>
 								搜索srcIP <input type="text" id="keyword3" list="id_srcIP" />
 								<datalist id="id_srcIP" ></datalist>
-<!--								<a class="btn btn-warning" onclick="searchDstIP()"><i ></i>搜索srcIP</a>-->
 							</li>
 							<li>
 								搜索srcPort <input type="text" id="keyword4" list="id_srcPort" />
 								<datalist id="id_srcPort" ></datalist>
-<!--								<a class="btn btn-warning" onclick="searchAction()"><i ></i>搜索srcPort</a>-->
 							</li>
 							<li>
 								搜索eventName <input type="text" id="keyword5" list="id_eventName" />
 								<datalist id="id_eventName" ></datalist>
-<!--								<a class="btn btn-warning" onclick="searchDstIP()"><i ></i>搜索eventName</a>-->
 								<a class="btn btn-warning" onclick="searchA()"><i ></i>搜索</a>
 							</li>
 						</ul>
@@ -48,15 +42,7 @@
 				</form>
 			</div>
 
-			<div class="btn-group-sm" id="toolbar" role="group">
-<!--				<a class="btn btn-success" onclick="$.operate.add()">-->
-<!--					<i class="fa fa-plus"></i> 添加-->
-<!--				</a>-->
-<!--				<a class="btn btn-primary single disabled" onclick="$.operate.edit()" >-->
-<!--					<i class="fa fa-edit"></i> 修改-->
-<!--				</a>-->
 
-			</div>
 			<div class="col-sm-12 select-table table-striped">
 				<table id="bootstrap-table" data-mobile-responsive="true"></table>
 			</div>
@@ -82,86 +68,38 @@
 					}
 				if (keyword.length>1) {
 					var field="Action";
-					var url = prefix + '/searchField/'  + "/" +field+ "/" +keyword;
+					var url = prefix + '/searchIpsField/'  + "/" +field+ "/" +keyword;
 					createMenuItem(url, "搜索内容");
 				}else
 				if (keyword1.length>1) {
 					var field="DstIP";
-					var url1 = prefix + '/searchField/'  + "/" +field+ "/" +keyword1;
+					var url1 = prefix + '/searchIpsField/'  + "/" +field+ "/" +keyword1;
 					createMenuItem(url1, "搜索内容");
 				}else
 				if (keyword2.length>1) {
 					var field="DstPort";
-					var url2 = prefix + '/searchField/'  + "/" +field+ "/" +keyword2;
+					var url2 = prefix + '/searchIpsField/'  + "/" +field+ "/" +keyword2;
 					createMenuItem(url2, "搜索内容");
 				}else
 				if (keyword3.length>1) {
 					var field="SrcIP";
-					var url3 = prefix + '/searchField/'  + "/" +field+ "/" +keyword3;
+					var url3 = prefix + '/searchIpsField/'  + "/" +field+ "/" +keyword3;
 					createMenuItem(url3, "搜索内容");
 				}else
 				if (keyword4.length>1) {
 					var field="SrcPort";
-					var url4 = prefix + '/searchField/'  + "/" +field+ "/" +keyword4;
+					var url4 = prefix + '/searchIpsField/'  + "/" +field+ "/" +keyword4;
 					createMenuItem(url4, "搜索内容");
 				}else
 				if (keyword5.length>1) {
 					var field="EventName";
-					var url5 = prefix + '/searchField/'  + "/" +field+ "/" +keyword5;
+					var url5 = prefix + '/searchIpsField/'  + "/" +field+ "/" +keyword5;
 					createMenuItem(url5, "搜索内容");
 				}
 
 			}
 
-			function searchB() {
-				// $("#type").val(type);
-				var keyword = $("#keyword").val();
-				var keyword1 = $("#keyword1").val();
-				var keyword2 = $("#keyword2").val();
-				var keyword3 = $("#keyword3").val();
-				var keyword4 = $("#keyword4").val();
-				var keyword5 = $("#keyword5").val();
-				if ((keyword == null || keyword == "")&(keyword1 == null || keyword1 == "")&
-						(keyword2 == null || keyword2 == "")&(keyword3 == null || keyword3 == "")&
-						(keyword4 == null || keyword4 == "")&(keyword5 == null || keyword5 == "")) {
-					alert("请输入搜索内容");
-					return;
-				}
 
-				// if (keyword != null || keyword != "") {
-				// 	var field="Action";
-				// 	var url = prefix + '/searchField/'  + "/" +field+ "/" +keyword;
-				// 	createMenuItem(url, "搜索内容");
-				// }else
-				// if ((keyword1 != null || keyword1 != "")&(keyword == null || keyword == "")) {
-				// 	var field1="DstIP";
-				// 	var url1 = prefix + '/searchField/'  + "/" +field1+ "/" +keyword1;
-				// 	createMenuItem(url1, "搜索内容");
-				// }else
-				// if (keyword2 != null || keyword2 != "") {
-				// 	var field2="DstPort";
-				// 	var url2 = prefix + '/searchField/'  + "/" +field2+ "/" +keyword2;
-				// 	createMenuItem(url2, "搜索内容");
-				// }else
-				// if (keyword3 != null || keyword3 != "") {
-				// 	var field3="SrcIP";
-				// 	var url3 = prefix + '/searchField/'  + "/" +field3+ "/" +keyword3;
-				// 	createMenuItem(url3, "搜索内容");
-				// }else
-				// if (keyword4 != null || keyword4 != "") {
-				// 	var field4="SrcPort";
-				// 	var url4 = prefix + '/searchField/'  + "/" +field4+ "/" +keyword4;
-				// 	createMenuItem(url4, "搜索内容");
-				// }else
-				// if (keyword5 != null || keyword5 != "") {
-				// 	var field5="EventName";
-				// 	var url5 = prefix + '/searchField/'  + "/" +field5+ "/" +keyword5;
-				// 	createMenuItem(url5, "搜索内容");
-				// }
-
-
-
-			}
 
 			// function a(){
 			// 	$("#keyword").val($("#select option:selected").text());
@@ -171,7 +109,7 @@
 			function b(){
 
 				$.ajax({
-					url: prefix + '/searchAll',
+					url: prefix + '/searchAllIpsField',
 
 					success:function(data){
 
@@ -232,17 +170,8 @@
 				})
 			}
 
-
-			function c() {
-				var searchList = [[${list}]];
-				for(var i=0;i<searchList.length;i++){
-					$("#select").append("<option value='" + a.IP+  "'>" + a.IP+  "</option>")
-				}
-			}
-
 			$(function () {
 				b();
-				// c();
 				var options = {
 					url: prefix + "/selectAllIps",
 					sidePagination: "client",

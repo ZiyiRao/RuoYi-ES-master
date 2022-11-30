@@ -8,36 +8,6 @@
 <body class="gray-bg">
 <div class="container-div">
     <div class="row">
-<!--        <div class="col-sm-12 search-collapse">-->
-<!--            <form id="data-form">-->
-<!--                <table id="outBoxTab">-->
-<!--                    <thead>-->
-<!--                    <tr>-->
-<!--                        <th>IP</th>-->
-<!--                        <th>SrcIP</th>-->
-<!--                        <th>EventName</th>-->
-
-<!--                    </tr>-->
-<!--                    </thead>-->
-<!--                    <tbody>-->
-<!--                    </tbody>-->
-<!--                </table>-->
-<!--                <p id="ye"></p>-->
-<!--                <button type="button" id="up">上一页</button>-->
-<!--                <button type="button" id="down">下一页</button>-->
-<!--                <ul id="liAppend">-->
-<!--                    <li th:each="data : ${list}">-->
-<!--                        action：<span th:text="${data['action']}"></span>-->
-<!--                        dstIP：<span th:text="${data['dstIP']}"></span>-->
-<!--                        dstPort：<span th:text="${data['dstPort']}"></span>-->
-<!--                        srcIP：<span th:text="${data['srcIP']}"></span>-->
-<!--                        srcPort：<span th:text="${data['srcPort']}"></span>-->
-<!--                        eventName：<span th:text="${data['eventName']}"></span>-->
-<!--                    </li><br>-->
-<!--                </ul>-->
-<!--            </form>-->
-<!--        </div>-->
-<!--        <iframe src="ips.html" id="B" name="B"></iframe>-->
         <div class="col-sm-12 select-table table-striped">
             <table id="bootstrap-table" data-mobile-responsive="true"></table>
         </div>
@@ -54,7 +24,7 @@
     var prefix = ctx +"es";
     $(function () {
         var options = {
-            url: prefix +  '/searchES/'+"/"+field+"/"+keyword,
+            url: prefix +  '/searchEsIps/'+"/"+field+"/"+keyword,
             sidePagination: "client",
             columns: [
                 {
