@@ -1,0 +1,700 @@
+00:08:15.920 [schedule-pool-4] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+00:08:15.929 [schedule-pool-4] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,159] - Finished invalidation session. No sessions were stopped.
+00:18:15.918 [schedule-pool-6] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+00:18:15.924 [schedule-pool-6] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,159] - Finished invalidation session. No sessions were stopped.
+00:28:15.918 [schedule-pool-3] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+00:28:15.924 [schedule-pool-3] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,159] - Finished invalidation session. No sessions were stopped.
+00:38:15.923 [schedule-pool-7] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+00:38:15.939 [schedule-pool-7] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,159] - Finished invalidation session. No sessions were stopped.
+21:37:17.938 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on DESKTOP-FFK6TV4 with PID 10216 (D:\RuoYi\RuoYi-ES-master\RuoYi\ruoyi-admin\target\classes started by Admin in D:\RuoYi\RuoYi-ES-master)
+21:37:17.950 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,679] - The following profiles are active: druid
+21:37:22.907 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,158] - Cache with name 'com.ruoyi.framework.shiro.realm.UserRealm.authorizationCache' does not yet exist.  Creating now.
+21:37:22.907 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,165] - Added EhCache named [com.ruoyi.framework.shiro.realm.UserRealm.authorizationCache]
+21:37:24.089 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [loginRecordCache]
+21:37:24.821 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+21:37:24.940 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:37:24.959 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:37:24.959 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:37:24.961 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:37:25.096 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+21:37:25.096 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+21:37:25.680 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8088"]
+21:37:25.690 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+21:37:25.690 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+21:37:25.697 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk_8.0.1310.11_64\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\Oracle\WINDOWS.X64_193000_db_home\bin;D:\VMware\VMware Workstation\bin\;D:\java\jdk_8.0.1310.11_64\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\git\Git\cmd;D:\mysql-8.0.29-winx64\mysql-8.0.29-winx64\bin;D:\mysql-8.0.29-winx64\mysql-8.0.29-winx64;D:\JetBrains\IntelliJ IDEA 2021.3.2\plugins\maven\lib\maven3\bin;D:\nvm\nvm;D:\Program Files\nodejs;D:\git\Git\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;D:\nvm\nvm\v16.14.2\node_modules\yarn\bin;D:\nvm\nvm\v16.14.2\node_modules\npm\bin;D:\nvm\nvm\v16.14.2;D:\Program Files\rabbitmq\rabbitmq_server-3.7.14\sbin;D:\Users\Admin\AppData\Local\Programs\Python\Python310\Scripts\;D:\Users\Admin\AppData\Local\Programs\Python\Python310\;C:\Users\Admin\.windows-build-tools\python27\;C:\Users\Admin\.windows-build-tools\python27\;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;node_global;D:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin;D:\nvm\nvm;D:\nvm\nvm;D:\Program Files\nodejs;.]
+21:37:25.906 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+21:37:26.302 [restartedMain] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+21:37:26.435 [restartedMain] INFO  o.hibernate.Version - [logVersion,46] - HHH000412: Hibernate Core {5.3.7.Final}
+21:37:26.440 [restartedMain] INFO  o.h.cfg.Environment - [<clinit>,213] - HHH000206: hibernate.properties not found
+21:37:26.665 [restartedMain] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+21:37:27.002 [restartedMain] INFO  o.h.dialect.Dialect - [<init>,157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+21:37:28.282 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+21:37:28.285 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+21:37:28.288 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+21:37:28.290 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+21:37:28.293 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+21:37:28.296 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+21:37:28.298 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+21:37:28.301 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+21:37:28.305 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+21:37:28.307 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+21:37:29.061 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,190] - no modules loaded
+21:37:29.062 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+21:37:29.062 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+21:37:29.062 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+21:37:29.063 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+21:37:29.063 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+21:38:02.225 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+21:38:03.741 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+21:38:03.755 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+21:38:03.800 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+21:38:04.184 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8088"]
+21:38:04.185 [restartedMain] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+21:38:04.207 [restartedMain] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 46.879 seconds (JVM running for 49.198)
+21:38:09.448 [http-nio-8088-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:38:09.488 [http-nio-8088-exec-1] INFO  o.a.s.s.m.AbstractValidatingSessionManager - [enableSessionValidation,233] - Enabling session validation scheduler...
+21:38:09.514 [http-nio-8088-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [shiro-activeSessionCache]
+21:38:10.705 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+21:38:10.780 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,159] - Finished invalidation session. No sessions were stopped.
+21:39:50.843 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on DESKTOP-FFK6TV4 with PID 15076 (D:\RuoYi\RuoYi-ES-master\RuoYi\ruoyi-admin\target\classes started by Admin in D:\RuoYi\RuoYi-ES-master)
+21:39:50.848 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,679] - The following profiles are active: druid
+21:39:54.777 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,158] - Cache with name 'com.ruoyi.framework.shiro.realm.UserRealm.authorizationCache' does not yet exist.  Creating now.
+21:39:54.778 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,165] - Added EhCache named [com.ruoyi.framework.shiro.realm.UserRealm.authorizationCache]
+21:39:55.659 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [loginRecordCache]
+21:39:56.280 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+21:39:56.397 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:39:56.401 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:39:56.401 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:39:56.402 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:39:56.548 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+21:39:56.548 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+21:39:57.095 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8088"]
+21:39:57.104 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+21:39:57.104 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+21:39:57.110 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk_8.0.1310.11_64\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\Oracle\WINDOWS.X64_193000_db_home\bin;D:\VMware\VMware Workstation\bin\;D:\java\jdk_8.0.1310.11_64\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\git\Git\cmd;D:\mysql-8.0.29-winx64\mysql-8.0.29-winx64\bin;D:\mysql-8.0.29-winx64\mysql-8.0.29-winx64;D:\JetBrains\IntelliJ IDEA 2021.3.2\plugins\maven\lib\maven3\bin;D:\nvm\nvm;D:\Program Files\nodejs;D:\git\Git\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;D:\nvm\nvm\v16.14.2\node_modules\yarn\bin;D:\nvm\nvm\v16.14.2\node_modules\npm\bin;D:\nvm\nvm\v16.14.2;D:\Program Files\rabbitmq\rabbitmq_server-3.7.14\sbin;D:\Users\Admin\AppData\Local\Programs\Python\Python310\Scripts\;D:\Users\Admin\AppData\Local\Programs\Python\Python310\;C:\Users\Admin\.windows-build-tools\python27\;C:\Users\Admin\.windows-build-tools\python27\;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;node_global;D:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin;D:\nvm\nvm;D:\nvm\nvm;D:\Program Files\nodejs;.]
+21:39:57.309 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+21:39:57.729 [restartedMain] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+21:39:57.831 [restartedMain] INFO  o.hibernate.Version - [logVersion,46] - HHH000412: Hibernate Core {5.3.7.Final}
+21:39:57.835 [restartedMain] INFO  o.h.cfg.Environment - [<clinit>,213] - HHH000206: hibernate.properties not found
+21:39:58.075 [restartedMain] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+21:39:58.402 [restartedMain] INFO  o.h.dialect.Dialect - [<init>,157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+21:39:59.578 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+21:39:59.581 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+21:39:59.584 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+21:39:59.586 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+21:39:59.589 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+21:39:59.592 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+21:39:59.594 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+21:39:59.598 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+21:39:59.601 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+21:39:59.604 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+21:40:00.358 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,190] - no modules loaded
+21:40:00.358 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+21:40:00.359 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+21:40:00.359 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+21:40:00.359 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+21:40:00.359 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+21:40:33.356 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+21:40:34.864 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+21:40:34.877 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+21:40:34.919 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+21:40:35.211 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8088"]
+21:40:35.212 [restartedMain] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+21:40:35.235 [restartedMain] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 45.076 seconds (JVM running for 47.569)
+21:40:39.719 [http-nio-8088-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:40:39.749 [http-nio-8088-exec-1] INFO  o.a.s.s.m.AbstractValidatingSessionManager - [enableSessionValidation,233] - Enabling session validation scheduler...
+21:40:39.752 [http-nio-8088-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [shiro-activeSessionCache]
+21:40:40.249 [http-nio-8088-exec-2] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:40:40.755 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+21:40:40.760 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,159] - Finished invalidation session. No sessions were stopped.
+21:40:41.995 [schedule-pool-2] INFO  sys-user - [run,109] - [127.0.0.1]内网IP[admin][Success][登录成功]
+21:40:42.832 [http-nio-8088-exec-6] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:40:42.833 [http-nio-8088-exec-6] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+21:41:11.765 [SimpleAsyncTaskExecutor-1] INFO  c.r.m.l.ReceiveMsgListener - [getdelayMsg,101] - MQ接收消息时间:2022-11-23 21:41:11,消息内容:{"loginTime":1669210841697,"loginIp":"1.204.219.129","loginUserId":1,"params":{},"loginOperation":"用户登录"}
+21:41:11.765 [SimpleAsyncTaskExecutor-1] INFO  c.r.m.l.ReceiveMsgListener - [getdelayMsg,102] - ------->这里实现登录通知...
+21:50:40.759 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+21:50:40.767 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,159] - Finished invalidation session. No sessions were stopped.
+22:00:40.764 [schedule-pool-2] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+22:00:40.774 [schedule-pool-2] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,159] - Finished invalidation session. No sessions were stopped.
+22:10:40.751 [schedule-pool-4] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+22:10:40.758 [schedule-pool-4] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,159] - Finished invalidation session. No sessions were stopped.
+22:14:40.312 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on DESKTOP-FFK6TV4 with PID 9672 (D:\RuoYi\RuoYi-ES-master\RuoYi\ruoyi-admin\target\classes started by Admin in D:\RuoYi\RuoYi-ES-master)
+22:14:40.315 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,679] - The following profiles are active: druid
+22:14:44.482 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,158] - Cache with name 'com.ruoyi.framework.shiro.realm.UserRealm.authorizationCache' does not yet exist.  Creating now.
+22:14:44.483 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,165] - Added EhCache named [com.ruoyi.framework.shiro.realm.UserRealm.authorizationCache]
+22:14:45.361 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [loginRecordCache]
+22:14:45.989 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+22:14:46.094 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:14:46.098 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:14:46.099 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:14:46.099 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:14:46.242 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+22:14:46.242 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+22:14:46.820 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8088"]
+22:14:46.829 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+22:14:46.829 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+22:14:46.836 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk_8.0.1310.11_64\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\Oracle\WINDOWS.X64_193000_db_home\bin;D:\VMware\VMware Workstation\bin\;D:\java\jdk_8.0.1310.11_64\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\git\Git\cmd;D:\mysql-8.0.29-winx64\mysql-8.0.29-winx64\bin;D:\mysql-8.0.29-winx64\mysql-8.0.29-winx64;D:\JetBrains\IntelliJ IDEA 2021.3.2\plugins\maven\lib\maven3\bin;D:\nvm\nvm;D:\Program Files\nodejs;D:\git\Git\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;D:\nvm\nvm\v16.14.2\node_modules\yarn\bin;D:\nvm\nvm\v16.14.2\node_modules\npm\bin;D:\nvm\nvm\v16.14.2;D:\Program Files\rabbitmq\rabbitmq_server-3.7.14\sbin;D:\Users\Admin\AppData\Local\Programs\Python\Python310\Scripts\;D:\Users\Admin\AppData\Local\Programs\Python\Python310\;C:\Users\Admin\.windows-build-tools\python27\;C:\Users\Admin\.windows-build-tools\python27\;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;node_global;D:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin;D:\nvm\nvm;D:\nvm\nvm;D:\Program Files\nodejs;.]
+22:14:47.048 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+22:14:47.461 [restartedMain] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+22:14:47.564 [restartedMain] INFO  o.hibernate.Version - [logVersion,46] - HHH000412: Hibernate Core {5.3.7.Final}
+22:14:47.568 [restartedMain] INFO  o.h.cfg.Environment - [<clinit>,213] - HHH000206: hibernate.properties not found
+22:14:47.802 [restartedMain] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+22:14:48.130 [restartedMain] INFO  o.h.dialect.Dialect - [<init>,157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+22:14:49.321 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:14:49.324 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:14:49.327 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:14:49.329 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:14:49.332 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:14:49.335 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:14:49.338 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:14:49.343 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:14:49.347 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:14:49.350 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:14:50.117 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,190] - no modules loaded
+22:14:50.118 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+22:14:50.118 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+22:14:50.118 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+22:14:50.118 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+22:14:50.119 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+22:15:23.139 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+22:15:24.680 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+22:15:24.695 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+22:15:24.736 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+22:15:25.027 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8088"]
+22:15:25.028 [restartedMain] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+22:15:25.050 [restartedMain] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 45.263 seconds (JVM running for 46.918)
+22:15:49.228 [http-nio-8088-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:15:49.257 [http-nio-8088-exec-1] INFO  o.a.s.s.m.AbstractValidatingSessionManager - [enableSessionValidation,233] - Enabling session validation scheduler...
+22:15:49.261 [http-nio-8088-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [shiro-activeSessionCache]
+22:15:49.814 [http-nio-8088-exec-2] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:15:50.265 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+22:15:50.270 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,159] - Finished invalidation session. No sessions were stopped.
+22:15:51.303 [schedule-pool-2] INFO  sys-user - [run,109] - [127.0.0.1]内网IP[admin][Success][登录成功]
+22:15:51.735 [http-nio-8088-exec-5] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:15:51.736 [http-nio-8088-exec-5] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:16:21.286 [SimpleAsyncTaskExecutor-1] INFO  c.r.m.l.ReceiveMsgListener - [getdelayMsg,101] - MQ接收消息时间:2022-11-23 22:16:21,消息内容:{"loginTime":1669212951219,"loginIp":"1.204.219.129","loginUserId":1,"params":{},"loginOperation":"用户登录"}
+22:16:21.286 [SimpleAsyncTaskExecutor-1] INFO  c.r.m.l.ReceiveMsgListener - [getdelayMsg,102] - ------->这里实现登录通知...
+22:25:50.265 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+22:25:50.271 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,159] - Finished invalidation session. No sessions were stopped.
+22:27:02.977 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on DESKTOP-FFK6TV4 with PID 15560 (D:\RuoYi\RuoYi-ES-master\RuoYi\ruoyi-admin\target\classes started by Admin in D:\RuoYi\RuoYi-ES-master)
+22:27:02.982 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,679] - The following profiles are active: druid
+22:27:06.951 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,158] - Cache with name 'com.ruoyi.framework.shiro.realm.UserRealm.authorizationCache' does not yet exist.  Creating now.
+22:27:06.951 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,165] - Added EhCache named [com.ruoyi.framework.shiro.realm.UserRealm.authorizationCache]
+22:27:07.857 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [loginRecordCache]
+22:27:08.476 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+22:27:08.610 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:27:08.614 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:27:08.615 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:27:08.615 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:27:08.765 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+22:27:08.766 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+22:27:09.331 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8088"]
+22:27:09.341 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+22:27:09.342 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+22:27:09.349 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk_8.0.1310.11_64\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\Oracle\WINDOWS.X64_193000_db_home\bin;D:\VMware\VMware Workstation\bin\;D:\java\jdk_8.0.1310.11_64\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\git\Git\cmd;D:\mysql-8.0.29-winx64\mysql-8.0.29-winx64\bin;D:\mysql-8.0.29-winx64\mysql-8.0.29-winx64;D:\JetBrains\IntelliJ IDEA 2021.3.2\plugins\maven\lib\maven3\bin;D:\nvm\nvm;D:\Program Files\nodejs;D:\git\Git\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;D:\nvm\nvm\v16.14.2\node_modules\yarn\bin;D:\nvm\nvm\v16.14.2\node_modules\npm\bin;D:\nvm\nvm\v16.14.2;D:\Program Files\rabbitmq\rabbitmq_server-3.7.14\sbin;D:\Users\Admin\AppData\Local\Programs\Python\Python310\Scripts\;D:\Users\Admin\AppData\Local\Programs\Python\Python310\;C:\Users\Admin\.windows-build-tools\python27\;C:\Users\Admin\.windows-build-tools\python27\;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;node_global;D:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin;D:\nvm\nvm;D:\nvm\nvm;D:\Program Files\nodejs;.]
+22:27:09.566 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+22:27:09.973 [restartedMain] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+22:27:10.092 [restartedMain] INFO  o.hibernate.Version - [logVersion,46] - HHH000412: Hibernate Core {5.3.7.Final}
+22:27:10.096 [restartedMain] INFO  o.h.cfg.Environment - [<clinit>,213] - HHH000206: hibernate.properties not found
+22:27:10.311 [restartedMain] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+22:27:10.661 [restartedMain] INFO  o.h.dialect.Dialect - [<init>,157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+22:27:11.861 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:27:11.863 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:27:11.866 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:27:11.868 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:27:11.871 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:27:11.873 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:27:11.875 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:27:11.879 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:27:11.883 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:27:11.885 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:27:12.631 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,190] - no modules loaded
+22:27:12.632 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+22:27:12.632 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+22:27:12.632 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+22:27:12.632 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+22:27:12.632 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+22:27:45.659 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+22:27:47.177 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+22:27:47.191 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+22:27:47.232 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+22:27:47.532 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8088"]
+22:27:47.533 [restartedMain] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+22:27:47.555 [restartedMain] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 45.146 seconds (JVM running for 47.197)
+22:28:01.049 [http-nio-8088-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:28:01.080 [http-nio-8088-exec-1] INFO  o.a.s.s.m.AbstractValidatingSessionManager - [enableSessionValidation,233] - Enabling session validation scheduler...
+22:28:01.083 [http-nio-8088-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [shiro-activeSessionCache]
+22:28:01.510 [http-nio-8088-exec-2] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:28:02.095 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+22:28:02.101 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,159] - Finished invalidation session. No sessions were stopped.
+22:28:03.142 [schedule-pool-2] INFO  sys-user - [run,109] - [127.0.0.1]内网IP[admin][Success][登录成功]
+22:28:03.520 [http-nio-8088-exec-4] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:28:03.520 [http-nio-8088-exec-4] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:28:33.136 [SimpleAsyncTaskExecutor-1] INFO  c.r.m.l.ReceiveMsgListener - [getdelayMsg,101] - MQ接收消息时间:2022-11-23 22:28:33,消息内容:{"loginTime":1669213683041,"loginIp":"1.204.219.129","loginUserId":1,"params":{},"loginOperation":"用户登录"}
+22:28:33.136 [SimpleAsyncTaskExecutor-1] INFO  c.r.m.l.ReceiveMsgListener - [getdelayMsg,102] - ------->这里实现登录通知...
+22:28:41.492 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on DESKTOP-FFK6TV4 with PID 16136 (D:\RuoYi\RuoYi-ES-master\RuoYi\ruoyi-admin\target\classes started by Admin in D:\RuoYi\RuoYi-ES-master)
+22:28:41.493 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,679] - The following profiles are active: druid
+22:28:45.637 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,158] - Cache with name 'com.ruoyi.framework.shiro.realm.UserRealm.authorizationCache' does not yet exist.  Creating now.
+22:28:45.637 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,165] - Added EhCache named [com.ruoyi.framework.shiro.realm.UserRealm.authorizationCache]
+22:28:46.536 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [loginRecordCache]
+22:28:47.159 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+22:28:47.262 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:28:47.266 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:28:47.267 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:28:47.267 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:28:47.412 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+22:28:47.413 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+22:28:47.966 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8088"]
+22:28:47.975 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+22:28:47.975 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+22:28:47.981 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk_8.0.1310.11_64\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\Oracle\WINDOWS.X64_193000_db_home\bin;D:\VMware\VMware Workstation\bin\;D:\java\jdk_8.0.1310.11_64\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\git\Git\cmd;D:\mysql-8.0.29-winx64\mysql-8.0.29-winx64\bin;D:\mysql-8.0.29-winx64\mysql-8.0.29-winx64;D:\JetBrains\IntelliJ IDEA 2021.3.2\plugins\maven\lib\maven3\bin;D:\nvm\nvm;D:\Program Files\nodejs;D:\git\Git\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;D:\nvm\nvm\v16.14.2\node_modules\yarn\bin;D:\nvm\nvm\v16.14.2\node_modules\npm\bin;D:\nvm\nvm\v16.14.2;D:\Program Files\rabbitmq\rabbitmq_server-3.7.14\sbin;D:\Users\Admin\AppData\Local\Programs\Python\Python310\Scripts\;D:\Users\Admin\AppData\Local\Programs\Python\Python310\;C:\Users\Admin\.windows-build-tools\python27\;C:\Users\Admin\.windows-build-tools\python27\;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;node_global;D:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin;D:\nvm\nvm;D:\nvm\nvm;D:\Program Files\nodejs;.]
+22:28:48.189 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+22:28:48.634 [restartedMain] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+22:28:48.731 [restartedMain] INFO  o.hibernate.Version - [logVersion,46] - HHH000412: Hibernate Core {5.3.7.Final}
+22:28:48.735 [restartedMain] INFO  o.h.cfg.Environment - [<clinit>,213] - HHH000206: hibernate.properties not found
+22:28:48.946 [restartedMain] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+22:28:49.268 [restartedMain] INFO  o.h.dialect.Dialect - [<init>,157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+22:28:50.455 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:28:50.458 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:28:50.460 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:28:50.463 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:28:50.466 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:28:50.467 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:28:50.470 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:28:50.474 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:28:50.478 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:28:50.480 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:28:51.229 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,190] - no modules loaded
+22:28:51.230 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+22:28:51.230 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+22:28:51.231 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+22:28:51.231 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+22:28:51.231 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+22:29:24.338 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+22:29:25.902 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+22:29:25.916 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+22:29:25.959 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+22:29:26.266 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8088"]
+22:29:26.268 [restartedMain] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+22:29:26.289 [restartedMain] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 45.378 seconds (JVM running for 47.44)
+22:29:29.271 [http-nio-8088-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:29:29.303 [http-nio-8088-exec-1] INFO  o.a.s.s.m.AbstractValidatingSessionManager - [enableSessionValidation,233] - Enabling session validation scheduler...
+22:29:29.306 [http-nio-8088-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [shiro-activeSessionCache]
+22:29:29.783 [http-nio-8088-exec-2] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:29:30.314 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+22:29:30.320 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,159] - Finished invalidation session. No sessions were stopped.
+22:29:31.399 [schedule-pool-2] INFO  sys-user - [run,109] - [127.0.0.1]内网IP[admin][Success][登录成功]
+22:29:31.798 [http-nio-8088-exec-8] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:29:31.799 [http-nio-8088-exec-8] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:30:01.366 [SimpleAsyncTaskExecutor-1] INFO  c.r.m.l.ReceiveMsgListener - [getdelayMsg,101] - MQ接收消息时间:2022-11-23 22:30:01,消息内容:{"loginTime":1669213771294,"loginIp":"1.204.219.129","loginUserId":1,"params":{},"loginOperation":"用户登录"}
+22:30:01.367 [SimpleAsyncTaskExecutor-1] INFO  c.r.m.l.ReceiveMsgListener - [getdelayMsg,102] - ------->这里实现登录通知...
+22:35:50.902 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on DESKTOP-FFK6TV4 with PID 16016 (D:\RuoYi\RuoYi-ES-master\RuoYi\ruoyi-admin\target\classes started by Admin in D:\RuoYi\RuoYi-ES-master)
+22:35:50.907 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,679] - The following profiles are active: druid
+22:36:12.330 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on DESKTOP-FFK6TV4 with PID 14440 (D:\RuoYi\RuoYi-ES-master\RuoYi\ruoyi-admin\target\classes started by Admin in D:\RuoYi\RuoYi-ES-master)
+22:36:12.335 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,679] - The following profiles are active: druid
+22:36:16.354 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,158] - Cache with name 'com.ruoyi.framework.shiro.realm.UserRealm.authorizationCache' does not yet exist.  Creating now.
+22:36:16.354 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,165] - Added EhCache named [com.ruoyi.framework.shiro.realm.UserRealm.authorizationCache]
+22:36:17.243 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [loginRecordCache]
+22:36:17.868 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+22:36:17.971 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:36:17.975 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:36:17.976 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:36:17.976 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:36:18.119 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+22:36:18.119 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+22:36:18.696 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8088"]
+22:36:18.705 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+22:36:18.706 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+22:36:18.712 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk_8.0.1310.11_64\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\Oracle\WINDOWS.X64_193000_db_home\bin;D:\VMware\VMware Workstation\bin\;D:\java\jdk_8.0.1310.11_64\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\git\Git\cmd;D:\mysql-8.0.29-winx64\mysql-8.0.29-winx64\bin;D:\mysql-8.0.29-winx64\mysql-8.0.29-winx64;D:\JetBrains\IntelliJ IDEA 2021.3.2\plugins\maven\lib\maven3\bin;D:\nvm\nvm;D:\Program Files\nodejs;D:\git\Git\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;D:\nvm\nvm\v16.14.2\node_modules\yarn\bin;D:\nvm\nvm\v16.14.2\node_modules\npm\bin;D:\nvm\nvm\v16.14.2;D:\Program Files\rabbitmq\rabbitmq_server-3.7.14\sbin;D:\Users\Admin\AppData\Local\Programs\Python\Python310\Scripts\;D:\Users\Admin\AppData\Local\Programs\Python\Python310\;C:\Users\Admin\.windows-build-tools\python27\;C:\Users\Admin\.windows-build-tools\python27\;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;node_global;D:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin;D:\nvm\nvm;D:\nvm\nvm;D:\Program Files\nodejs;.]
+22:36:18.921 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+22:36:19.319 [restartedMain] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+22:36:19.445 [restartedMain] INFO  o.hibernate.Version - [logVersion,46] - HHH000412: Hibernate Core {5.3.7.Final}
+22:36:19.449 [restartedMain] INFO  o.h.cfg.Environment - [<clinit>,213] - HHH000206: hibernate.properties not found
+22:36:19.672 [restartedMain] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+22:36:19.994 [restartedMain] INFO  o.h.dialect.Dialect - [<init>,157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+22:36:21.238 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:36:21.241 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:36:21.245 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:36:21.248 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:36:21.251 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:36:21.255 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:36:21.258 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:36:21.264 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:36:21.268 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:36:21.271 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:36:22.062 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,190] - no modules loaded
+22:36:22.063 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+22:36:22.064 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+22:36:22.064 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+22:36:22.064 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+22:36:22.064 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+22:36:55.065 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+22:36:56.611 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+22:36:56.624 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+22:36:56.665 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+22:36:56.959 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8088"]
+22:36:56.960 [restartedMain] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+22:36:56.983 [restartedMain] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 45.214 seconds (JVM running for 47.516)
+22:37:07.013 [http-nio-8088-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:37:07.045 [http-nio-8088-exec-1] INFO  o.a.s.s.m.AbstractValidatingSessionManager - [enableSessionValidation,233] - Enabling session validation scheduler...
+22:37:07.048 [http-nio-8088-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [shiro-activeSessionCache]
+22:37:07.463 [http-nio-8088-exec-2] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:37:08.057 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+22:37:08.062 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,159] - Finished invalidation session. No sessions were stopped.
+22:37:08.927 [schedule-pool-2] INFO  sys-user - [run,109] - [127.0.0.1]内网IP[admin][Success][登录成功]
+22:37:09.383 [http-nio-8088-exec-4] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:37:09.384 [http-nio-8088-exec-4] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:37:38.904 [SimpleAsyncTaskExecutor-1] INFO  c.r.m.l.ReceiveMsgListener - [getdelayMsg,101] - MQ接收消息时间:2022-11-23 22:37:38,消息内容:{"loginTime":1669214228835,"loginIp":"1.204.219.129","loginUserId":1,"params":{},"loginOperation":"用户登录"}
+22:37:38.904 [SimpleAsyncTaskExecutor-1] INFO  c.r.m.l.ReceiveMsgListener - [getdelayMsg,102] - ------->这里实现登录通知...
+22:44:01.468 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on DESKTOP-FFK6TV4 with PID 16948 (D:\RuoYi\RuoYi-ES-master\RuoYi\ruoyi-admin\target\classes started by Admin in D:\RuoYi\RuoYi-ES-master)
+22:44:01.472 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,679] - The following profiles are active: druid
+22:44:05.420 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,158] - Cache with name 'com.ruoyi.framework.shiro.realm.UserRealm.authorizationCache' does not yet exist.  Creating now.
+22:44:05.421 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,165] - Added EhCache named [com.ruoyi.framework.shiro.realm.UserRealm.authorizationCache]
+22:44:06.379 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [loginRecordCache]
+22:44:07.010 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+22:44:07.114 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:44:07.117 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:44:07.118 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:44:07.119 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:44:07.274 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+22:44:07.274 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+22:44:07.855 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8088"]
+22:44:07.864 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+22:44:07.865 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+22:44:07.871 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk_8.0.1310.11_64\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\Oracle\WINDOWS.X64_193000_db_home\bin;D:\VMware\VMware Workstation\bin\;D:\java\jdk_8.0.1310.11_64\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\git\Git\cmd;D:\mysql-8.0.29-winx64\mysql-8.0.29-winx64\bin;D:\mysql-8.0.29-winx64\mysql-8.0.29-winx64;D:\JetBrains\IntelliJ IDEA 2021.3.2\plugins\maven\lib\maven3\bin;D:\nvm\nvm;D:\Program Files\nodejs;D:\git\Git\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;D:\nvm\nvm\v16.14.2\node_modules\yarn\bin;D:\nvm\nvm\v16.14.2\node_modules\npm\bin;D:\nvm\nvm\v16.14.2;D:\Program Files\rabbitmq\rabbitmq_server-3.7.14\sbin;D:\Users\Admin\AppData\Local\Programs\Python\Python310\Scripts\;D:\Users\Admin\AppData\Local\Programs\Python\Python310\;C:\Users\Admin\.windows-build-tools\python27\;C:\Users\Admin\.windows-build-tools\python27\;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;node_global;D:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin;D:\nvm\nvm;D:\nvm\nvm;D:\Program Files\nodejs;.]
+22:44:08.082 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+22:44:08.505 [restartedMain] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+22:44:08.606 [restartedMain] INFO  o.hibernate.Version - [logVersion,46] - HHH000412: Hibernate Core {5.3.7.Final}
+22:44:08.629 [restartedMain] INFO  o.h.cfg.Environment - [<clinit>,213] - HHH000206: hibernate.properties not found
+22:44:08.838 [restartedMain] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+22:44:09.160 [restartedMain] INFO  o.h.dialect.Dialect - [<init>,157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+22:44:10.339 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:44:10.342 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:44:10.345 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:44:10.347 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:44:10.350 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:44:10.352 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:44:10.355 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:44:10.360 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:44:10.364 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:44:10.367 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:44:11.111 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,190] - no modules loaded
+22:44:11.112 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+22:44:11.112 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+22:44:11.112 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+22:44:11.113 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+22:44:11.113 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+22:44:44.144 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+22:44:45.682 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+22:44:45.695 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+22:44:45.739 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+22:44:46.043 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8088"]
+22:44:46.044 [restartedMain] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+22:44:46.066 [restartedMain] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 45.168 seconds (JVM running for 47.284)
+22:44:53.866 [http-nio-8088-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:44:53.897 [http-nio-8088-exec-1] INFO  o.a.s.s.m.AbstractValidatingSessionManager - [enableSessionValidation,233] - Enabling session validation scheduler...
+22:44:53.900 [http-nio-8088-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [shiro-activeSessionCache]
+22:44:54.298 [http-nio-8088-exec-4] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:44:54.900 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+22:44:54.904 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,159] - Finished invalidation session. No sessions were stopped.
+22:44:59.681 [schedule-pool-2] INFO  sys-user - [run,109] - [127.0.0.1]内网IP[admin][Success][登录成功]
+22:45:00.123 [http-nio-8088-exec-8] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:45:00.123 [http-nio-8088-exec-8] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:45:29.634 [SimpleAsyncTaskExecutor-1] INFO  c.r.m.l.ReceiveMsgListener - [getdelayMsg,101] - MQ接收消息时间:2022-11-23 22:45:29,消息内容:{"loginTime":1669214699577,"loginIp":"1.204.219.129","loginUserId":1,"params":{},"loginOperation":"用户登录"}
+22:45:29.634 [SimpleAsyncTaskExecutor-1] INFO  c.r.m.l.ReceiveMsgListener - [getdelayMsg,102] - ------->这里实现登录通知...
+22:47:35.026 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on DESKTOP-FFK6TV4 with PID 15860 (D:\RuoYi\RuoYi-ES-master\RuoYi\ruoyi-admin\target\classes started by Admin in D:\RuoYi\RuoYi-ES-master)
+22:47:35.031 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,679] - The following profiles are active: druid
+22:47:39.047 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,158] - Cache with name 'com.ruoyi.framework.shiro.realm.UserRealm.authorizationCache' does not yet exist.  Creating now.
+22:47:39.047 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,165] - Added EhCache named [com.ruoyi.framework.shiro.realm.UserRealm.authorizationCache]
+22:47:39.946 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [loginRecordCache]
+22:47:40.583 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+22:47:40.689 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:47:40.693 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:47:40.694 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:47:40.695 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:47:40.838 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+22:47:40.838 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+22:47:41.435 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8088"]
+22:47:41.444 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+22:47:41.444 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+22:47:41.451 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk_8.0.1310.11_64\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\Oracle\WINDOWS.X64_193000_db_home\bin;D:\VMware\VMware Workstation\bin\;D:\java\jdk_8.0.1310.11_64\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\git\Git\cmd;D:\mysql-8.0.29-winx64\mysql-8.0.29-winx64\bin;D:\mysql-8.0.29-winx64\mysql-8.0.29-winx64;D:\JetBrains\IntelliJ IDEA 2021.3.2\plugins\maven\lib\maven3\bin;D:\nvm\nvm;D:\Program Files\nodejs;D:\git\Git\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;D:\nvm\nvm\v16.14.2\node_modules\yarn\bin;D:\nvm\nvm\v16.14.2\node_modules\npm\bin;D:\nvm\nvm\v16.14.2;D:\Program Files\rabbitmq\rabbitmq_server-3.7.14\sbin;D:\Users\Admin\AppData\Local\Programs\Python\Python310\Scripts\;D:\Users\Admin\AppData\Local\Programs\Python\Python310\;C:\Users\Admin\.windows-build-tools\python27\;C:\Users\Admin\.windows-build-tools\python27\;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;node_global;D:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin;D:\nvm\nvm;D:\nvm\nvm;D:\Program Files\nodejs;.]
+22:47:41.668 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+22:47:42.088 [restartedMain] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+22:47:42.182 [restartedMain] INFO  o.hibernate.Version - [logVersion,46] - HHH000412: Hibernate Core {5.3.7.Final}
+22:47:42.186 [restartedMain] INFO  o.h.cfg.Environment - [<clinit>,213] - HHH000206: hibernate.properties not found
+22:47:42.402 [restartedMain] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+22:47:42.733 [restartedMain] INFO  o.h.dialect.Dialect - [<init>,157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+22:47:44.005 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:47:44.008 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:47:44.010 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:47:44.013 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:47:44.015 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:47:44.018 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:47:44.020 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:47:44.024 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:47:44.028 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:47:44.030 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:47:44.847 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,190] - no modules loaded
+22:47:44.848 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+22:47:44.848 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+22:47:44.848 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+22:47:44.849 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+22:47:44.849 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+22:48:17.876 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+22:48:19.399 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+22:48:19.413 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+22:48:19.455 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+22:48:19.744 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8088"]
+22:48:19.745 [restartedMain] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+22:48:19.767 [restartedMain] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 45.333 seconds (JVM running for 47.221)
+22:48:24.950 [http-nio-8088-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:48:25.001 [http-nio-8088-exec-1] INFO  o.a.s.s.m.AbstractValidatingSessionManager - [enableSessionValidation,233] - Enabling session validation scheduler...
+22:48:25.004 [http-nio-8088-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [shiro-activeSessionCache]
+22:48:25.462 [http-nio-8088-exec-2] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:48:26.015 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+22:48:26.020 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,159] - Finished invalidation session. No sessions were stopped.
+22:48:27.140 [schedule-pool-2] INFO  sys-user - [run,109] - [127.0.0.1]内网IP[admin][Success][登录成功]
+22:48:27.889 [http-nio-8088-exec-4] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:48:27.890 [http-nio-8088-exec-4] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:48:59.242 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on DESKTOP-FFK6TV4 with PID 2948 (D:\RuoYi\RuoYi-ES-master\RuoYi\ruoyi-admin\target\classes started by Admin in D:\RuoYi\RuoYi-ES-master)
+22:48:59.246 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,679] - The following profiles are active: druid
+22:49:03.309 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,158] - Cache with name 'com.ruoyi.framework.shiro.realm.UserRealm.authorizationCache' does not yet exist.  Creating now.
+22:49:03.309 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,165] - Added EhCache named [com.ruoyi.framework.shiro.realm.UserRealm.authorizationCache]
+22:49:04.217 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [loginRecordCache]
+22:49:04.846 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+22:49:04.951 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:49:04.955 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:49:04.956 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:49:04.956 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:49:05.097 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+22:49:05.097 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+22:49:05.661 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8088"]
+22:49:05.670 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+22:49:05.670 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+22:49:05.677 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk_8.0.1310.11_64\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\Oracle\WINDOWS.X64_193000_db_home\bin;D:\VMware\VMware Workstation\bin\;D:\java\jdk_8.0.1310.11_64\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\git\Git\cmd;D:\mysql-8.0.29-winx64\mysql-8.0.29-winx64\bin;D:\mysql-8.0.29-winx64\mysql-8.0.29-winx64;D:\JetBrains\IntelliJ IDEA 2021.3.2\plugins\maven\lib\maven3\bin;D:\nvm\nvm;D:\Program Files\nodejs;D:\git\Git\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;D:\nvm\nvm\v16.14.2\node_modules\yarn\bin;D:\nvm\nvm\v16.14.2\node_modules\npm\bin;D:\nvm\nvm\v16.14.2;D:\Program Files\rabbitmq\rabbitmq_server-3.7.14\sbin;D:\Users\Admin\AppData\Local\Programs\Python\Python310\Scripts\;D:\Users\Admin\AppData\Local\Programs\Python\Python310\;C:\Users\Admin\.windows-build-tools\python27\;C:\Users\Admin\.windows-build-tools\python27\;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;node_global;D:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin;D:\nvm\nvm;D:\nvm\nvm;D:\Program Files\nodejs;.]
+22:49:05.891 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+22:49:06.291 [restartedMain] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+22:49:06.417 [restartedMain] INFO  o.hibernate.Version - [logVersion,46] - HHH000412: Hibernate Core {5.3.7.Final}
+22:49:06.421 [restartedMain] INFO  o.h.cfg.Environment - [<clinit>,213] - HHH000206: hibernate.properties not found
+22:49:06.638 [restartedMain] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+22:49:06.961 [restartedMain] INFO  o.h.dialect.Dialect - [<init>,157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+22:49:08.140 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:49:08.143 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:49:08.146 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:49:08.149 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:49:08.151 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:49:08.154 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:49:08.156 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:49:08.160 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:49:08.164 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:49:08.166 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+22:49:08.940 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,190] - no modules loaded
+22:49:08.940 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+22:49:08.941 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+22:49:08.941 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+22:49:08.941 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+22:49:08.941 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+22:49:42.257 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+22:49:44.546 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+22:49:44.559 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+22:49:44.611 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+22:49:44.998 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8088"]
+22:49:44.999 [restartedMain] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+22:49:45.035 [restartedMain] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 46.298 seconds (JVM running for 47.859)
+22:49:45.086 [SimpleAsyncTaskExecutor-1] INFO  c.r.m.l.ReceiveMsgListener - [getdelayMsg,101] - MQ接收消息时间:2022-11-23 22:49:45,消息内容:{"loginTime":1669214907043,"loginIp":"1.204.219.129","loginUserId":1,"params":{},"loginOperation":"用户登录"}
+22:49:45.087 [SimpleAsyncTaskExecutor-1] INFO  c.r.m.l.ReceiveMsgListener - [getdelayMsg,102] - ------->这里实现登录通知...
+22:57:49.977 [http-nio-8088-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:57:50.013 [http-nio-8088-exec-1] INFO  o.a.s.s.m.AbstractValidatingSessionManager - [enableSessionValidation,233] - Enabling session validation scheduler...
+22:57:50.016 [http-nio-8088-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [shiro-activeSessionCache]
+22:57:50.476 [http-nio-8088-exec-2] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:57:51.021 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+22:57:51.027 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,159] - Finished invalidation session. No sessions were stopped.
+22:57:51.702 [schedule-pool-2] INFO  sys-user - [run,109] - [127.0.0.1]内网IP[admin][Success][登录成功]
+22:57:51.939 [http-nio-8088-exec-4] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:57:51.939 [http-nio-8088-exec-4] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+22:58:21.654 [SimpleAsyncTaskExecutor-1] INFO  c.r.m.l.ReceiveMsgListener - [getdelayMsg,101] - MQ接收消息时间:2022-11-23 22:58:21,消息内容:{"loginTime":1669215471612,"loginIp":"1.204.219.129","loginUserId":1,"params":{},"loginOperation":"用户登录"}
+22:58:21.654 [SimpleAsyncTaskExecutor-1] INFO  c.r.m.l.ReceiveMsgListener - [getdelayMsg,102] - ------->这里实现登录通知...
+23:07:51.018 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+23:07:51.026 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,159] - Finished invalidation session. No sessions were stopped.
+23:17:51.029 [schedule-pool-2] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+23:17:51.036 [schedule-pool-2] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,159] - Finished invalidation session. No sessions were stopped.
+23:27:51.023 [schedule-pool-4] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+23:27:51.030 [schedule-pool-4] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,159] - Finished invalidation session. No sessions were stopped.
+23:37:51.017 [schedule-pool-3] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+23:37:51.293 [schedule-pool-3] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,159] - Finished invalidation session. [1] sessions were stopped.
+23:45:38.080 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on DESKTOP-FFK6TV4 with PID 16176 (D:\RuoYi\RuoYi-ES-master\RuoYi\ruoyi-admin\target\classes started by Admin in D:\RuoYi\RuoYi-ES-master)
+23:45:38.085 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,679] - The following profiles are active: druid
+23:45:42.155 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,158] - Cache with name 'com.ruoyi.framework.shiro.realm.UserRealm.authorizationCache' does not yet exist.  Creating now.
+23:45:42.156 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,165] - Added EhCache named [com.ruoyi.framework.shiro.realm.UserRealm.authorizationCache]
+23:45:43.128 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [loginRecordCache]
+23:45:43.776 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+23:45:43.885 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+23:45:43.888 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+23:45:43.889 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+23:45:43.889 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+23:45:44.033 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+23:45:44.033 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+23:45:44.608 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8088"]
+23:45:44.617 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+23:45:44.618 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+23:45:44.624 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk_8.0.1310.11_64\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\Oracle\WINDOWS.X64_193000_db_home\bin;D:\VMware\VMware Workstation\bin\;D:\java\jdk_8.0.1310.11_64\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\git\Git\cmd;D:\mysql-8.0.29-winx64\mysql-8.0.29-winx64\bin;D:\mysql-8.0.29-winx64\mysql-8.0.29-winx64;D:\JetBrains\IntelliJ IDEA 2021.3.2\plugins\maven\lib\maven3\bin;D:\nvm\nvm;D:\Program Files\nodejs;D:\git\Git\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;D:\nvm\nvm\v16.14.2\node_modules\yarn\bin;D:\nvm\nvm\v16.14.2\node_modules\npm\bin;D:\nvm\nvm\v16.14.2;D:\Program Files\rabbitmq\rabbitmq_server-3.7.14\sbin;D:\Users\Admin\AppData\Local\Programs\Python\Python310\Scripts\;D:\Users\Admin\AppData\Local\Programs\Python\Python310\;C:\Users\Admin\.windows-build-tools\python27\;C:\Users\Admin\.windows-build-tools\python27\;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;node_global;D:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin;D:\nvm\nvm;D:\nvm\nvm;D:\Program Files\nodejs;.]
+23:45:44.833 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+23:45:45.238 [restartedMain] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+23:45:45.370 [restartedMain] INFO  o.hibernate.Version - [logVersion,46] - HHH000412: Hibernate Core {5.3.7.Final}
+23:45:45.375 [restartedMain] INFO  o.h.cfg.Environment - [<clinit>,213] - HHH000206: hibernate.properties not found
+23:45:45.656 [restartedMain] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+23:45:46.012 [restartedMain] INFO  o.h.dialect.Dialect - [<init>,157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+23:45:47.202 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+23:45:47.205 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+23:45:47.207 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+23:45:47.210 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+23:45:47.212 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+23:45:47.214 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+23:45:47.217 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+23:45:47.221 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+23:45:47.224 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+23:45:47.227 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+23:45:47.979 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,190] - no modules loaded
+23:45:47.980 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+23:45:47.980 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+23:45:47.980 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+23:45:47.981 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+23:45:47.981 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+23:46:21.034 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+23:46:22.644 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+23:46:22.658 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+23:46:22.700 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+23:46:23.038 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8088"]
+23:46:23.039 [restartedMain] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+23:46:23.061 [restartedMain] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 45.664 seconds (JVM running for 48.04)
+23:47:01.655 [http-nio-8088-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:47:01.689 [http-nio-8088-exec-1] INFO  o.a.s.s.m.AbstractValidatingSessionManager - [enableSessionValidation,233] - Enabling session validation scheduler...
+23:47:01.691 [http-nio-8088-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [shiro-activeSessionCache]
+23:47:02.120 [http-nio-8088-exec-2] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+23:47:02.707 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+23:47:02.712 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,159] - Finished invalidation session. No sessions were stopped.
+23:47:03.496 [schedule-pool-2] INFO  sys-user - [run,109] - [127.0.0.1]内网IP[admin][Success][登录成功]
+23:47:03.925 [http-nio-8088-exec-6] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+23:47:03.925 [http-nio-8088-exec-6] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+23:47:33.463 [SimpleAsyncTaskExecutor-1] INFO  c.r.m.l.ReceiveMsgListener - [getdelayMsg,101] - MQ接收消息时间:2022-11-23 23:47:33,消息内容:{"loginTime":1669218423382,"loginIp":"1.204.219.129","loginUserId":1,"params":{},"loginOperation":"用户登录"}
+23:47:33.463 [SimpleAsyncTaskExecutor-1] INFO  c.r.m.l.ReceiveMsgListener - [getdelayMsg,102] - ------->这里实现登录通知...
+23:48:18.168 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on DESKTOP-FFK6TV4 with PID 18292 (D:\RuoYi\RuoYi-ES-master\RuoYi\ruoyi-admin\target\classes started by Admin in D:\RuoYi\RuoYi-ES-master)
+23:48:18.172 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,679] - The following profiles are active: druid
+23:48:22.145 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,158] - Cache with name 'com.ruoyi.framework.shiro.realm.UserRealm.authorizationCache' does not yet exist.  Creating now.
+23:48:22.182 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,165] - Added EhCache named [com.ruoyi.framework.shiro.realm.UserRealm.authorizationCache]
+23:48:23.119 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [loginRecordCache]
+23:48:23.787 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+23:48:23.898 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+23:48:23.902 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+23:48:23.902 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+23:48:23.903 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+23:48:24.050 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+23:48:24.050 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+23:48:24.619 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8088"]
+23:48:24.628 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+23:48:24.629 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+23:48:24.635 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk_8.0.1310.11_64\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\Oracle\WINDOWS.X64_193000_db_home\bin;D:\VMware\VMware Workstation\bin\;D:\java\jdk_8.0.1310.11_64\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\git\Git\cmd;D:\mysql-8.0.29-winx64\mysql-8.0.29-winx64\bin;D:\mysql-8.0.29-winx64\mysql-8.0.29-winx64;D:\JetBrains\IntelliJ IDEA 2021.3.2\plugins\maven\lib\maven3\bin;D:\nvm\nvm;D:\Program Files\nodejs;D:\git\Git\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;D:\nvm\nvm\v16.14.2\node_modules\yarn\bin;D:\nvm\nvm\v16.14.2\node_modules\npm\bin;D:\nvm\nvm\v16.14.2;D:\Program Files\rabbitmq\rabbitmq_server-3.7.14\sbin;D:\Users\Admin\AppData\Local\Programs\Python\Python310\Scripts\;D:\Users\Admin\AppData\Local\Programs\Python\Python310\;C:\Users\Admin\.windows-build-tools\python27\;C:\Users\Admin\.windows-build-tools\python27\;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;node_global;D:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin;D:\nvm\nvm;D:\nvm\nvm;D:\Program Files\nodejs;.]
+23:48:24.845 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+23:48:25.265 [restartedMain] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+23:48:25.391 [restartedMain] INFO  o.hibernate.Version - [logVersion,46] - HHH000412: Hibernate Core {5.3.7.Final}
+23:48:25.395 [restartedMain] INFO  o.h.cfg.Environment - [<clinit>,213] - HHH000206: hibernate.properties not found
+23:48:25.617 [restartedMain] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+23:48:25.941 [restartedMain] INFO  o.h.dialect.Dialect - [<init>,157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+23:48:27.142 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+23:48:27.144 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+23:48:27.147 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+23:48:27.149 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+23:48:27.152 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+23:48:27.154 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+23:48:27.157 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+23:48:27.161 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+23:48:27.164 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+23:48:27.166 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+23:48:27.949 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,190] - no modules loaded
+23:48:27.949 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+23:48:27.950 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+23:48:27.950 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+23:48:27.950 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+23:48:27.950 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+23:49:05.300 [restartedMain] INFO  c.r.RuoYiApplication - [logStarting,50] - Starting RuoYiApplication on DESKTOP-FFK6TV4 with PID 11240 (D:\RuoYi\RuoYi-ES-master\RuoYi\ruoyi-admin\target\classes started by Admin in D:\RuoYi\RuoYi-ES-master)
+23:49:05.303 [restartedMain] INFO  c.r.RuoYiApplication - [logStartupProfileInfo,679] - The following profiles are active: druid
+23:49:09.086 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,158] - Cache with name 'com.ruoyi.framework.shiro.realm.UserRealm.authorizationCache' does not yet exist.  Creating now.
+23:49:09.086 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,165] - Added EhCache named [com.ruoyi.framework.shiro.realm.UserRealm.authorizationCache]
+23:49:10.015 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [loginRecordCache]
+23:49:10.711 [restartedMain] INFO  c.a.d.p.DruidDataSource - [init,991] - {dataSource-1} inited
+23:49:10.823 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+23:49:10.828 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+23:49:10.829 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+23:49:10.829 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+23:49:10.982 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+23:49:10.983 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-userCache]
+23:49:11.574 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-8088"]
+23:49:11.583 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+23:49:11.584 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet Engine: Apache Tomcat/9.0.13
+23:49:11.590 [restartedMain] INFO  o.a.c.c.AprLifecycleListener - [log,173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk_8.0.1310.11_64\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\Oracle\WINDOWS.X64_193000_db_home\bin;D:\VMware\VMware Workstation\bin\;D:\java\jdk_8.0.1310.11_64\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\git\Git\cmd;D:\mysql-8.0.29-winx64\mysql-8.0.29-winx64\bin;D:\mysql-8.0.29-winx64\mysql-8.0.29-winx64;D:\JetBrains\IntelliJ IDEA 2021.3.2\plugins\maven\lib\maven3\bin;D:\nvm\nvm;D:\Program Files\nodejs;D:\git\Git\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;D:\nvm\nvm\v16.14.2\node_modules\yarn\bin;D:\nvm\nvm\v16.14.2\node_modules\npm\bin;D:\nvm\nvm\v16.14.2;D:\Program Files\rabbitmq\rabbitmq_server-3.7.14\sbin;D:\Users\Admin\AppData\Local\Programs\Python\Python310\Scripts\;D:\Users\Admin\AppData\Local\Programs\Python\Python310\;C:\Users\Admin\.windows-build-tools\python27\;C:\Users\Admin\.windows-build-tools\python27\;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;node_global;D:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin;D:\nvm\nvm;D:\nvm\nvm;D:\Program Files\nodejs;.]
+23:49:11.810 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+23:49:12.251 [restartedMain] INFO  o.h.j.i.u.LogHelper - [logPersistenceUnitInformation,31] - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+23:49:12.368 [restartedMain] INFO  o.hibernate.Version - [logVersion,46] - HHH000412: Hibernate Core {5.3.7.Final}
+23:49:12.376 [restartedMain] INFO  o.h.cfg.Environment - [<clinit>,213] - HHH000206: hibernate.properties not found
+23:49:12.675 [restartedMain] INFO  o.h.a.common.Version - [<clinit>,49] - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+23:49:13.052 [restartedMain] INFO  o.h.dialect.Dialect - [<init>,157] - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+23:49:14.294 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+23:49:14.298 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+23:49:14.300 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+23:49:14.302 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+23:49:14.305 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+23:49:14.308 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+23:49:14.310 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+23:49:14.314 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+23:49:14.317 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+23:49:14.321 [restartedMain] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-dict]
+23:49:15.082 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,190] - no modules loaded
+23:49:15.082 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+23:49:15.083 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+23:49:15.083 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+23:49:15.083 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+23:49:15.083 [restartedMain] INFO  o.e.p.PluginsService - [logPluginInfo,193] - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+23:49:48.128 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - [initHandlerMethods,69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+23:49:49.678 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,160] - Context refreshed
+23:49:49.691 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - [start,163] - Found 1 custom documentation plugin(s)
+23:49:49.732 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - [scan,41] - Scanning for api listing references
+23:49:50.023 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-8088"]
+23:49:50.024 [restartedMain] INFO  o.a.t.u.n.NioSelectorPool - [log,173] - Using a shared selector for servlet write/read
+23:49:50.046 [restartedMain] INFO  c.r.RuoYiApplication - [logStarted,59] - Started RuoYiApplication in 45.203 seconds (JVM running for 47.127)
+23:49:57.294 [http-nio-8088-exec-1] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:49:57.325 [http-nio-8088-exec-1] INFO  o.a.s.s.m.AbstractValidatingSessionManager - [enableSessionValidation,233] - Enabling session validation scheduler...
+23:49:57.329 [http-nio-8088-exec-1] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [shiro-activeSessionCache]
+23:49:57.723 [http-nio-8088-exec-2] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+23:49:58.332 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+23:49:58.339 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,159] - Finished invalidation session. No sessions were stopped.
+23:49:59.199 [schedule-pool-2] INFO  sys-user - [run,109] - [127.0.0.1]内网IP[admin][Success][登录成功]
+23:49:59.676 [http-nio-8088-exec-8] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+23:49:59.676 [http-nio-8088-exec-8] INFO  o.a.s.c.e.EhCacheManager - [getCache,169] - Using existing EHCache named [sys-config]
+23:50:29.158 [SimpleAsyncTaskExecutor-1] INFO  c.r.m.l.ReceiveMsgListener - [getdelayMsg,101] - MQ接收消息时间:2022-11-23 23:50:29,消息内容:{"loginTime":1669218599111,"loginIp":"1.204.219.129","loginUserId":1,"params":{},"loginOperation":"用户登录"}
+23:50:29.158 [SimpleAsyncTaskExecutor-1] INFO  c.r.m.l.ReceiveMsgListener - [getdelayMsg,102] - ------->这里实现登录通知...
+23:59:58.328 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,100] - invalidation sessions...
+23:59:58.337 [schedule-pool-1] INFO  c.r.f.s.w.s.OnlineWebSessionManager - [validateSessions,159] - Finished invalidation session. No sessions were stopped.

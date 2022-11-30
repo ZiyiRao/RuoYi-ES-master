@@ -1,0 +1,40 @@
+02:35:26.411 [AMQP Connection 192.168.80.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1468] - Channel shutdown: connection error
+02:35:26.448 [AMQP Connection 192.168.80.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1468] - Channel shutdown: connection error
+02:35:26.449 [AMQP Connection 192.168.80.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1468] - Channel shutdown: connection error
+02:35:26.449 [AMQP Connection 192.168.80.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1468] - Channel shutdown: connection error
+02:35:26.449 [AMQP Connection 192.168.80.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1468] - Channel shutdown: connection error
+02:35:26.455 [AMQP Connection 192.168.80.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1468] - Channel shutdown: connection error
+02:35:26.455 [AMQP Connection 192.168.80.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1468] - Channel shutdown: connection error
+02:35:26.455 [AMQP Connection 192.168.80.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1468] - Channel shutdown: connection error
+10:04:24.979 [SimpleAsyncTaskExecutor-2] ERROR o.s.a.r.l.SimpleMessageListenerContainer - [redeclareElementsIfNecessary,1736] - Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection timed out: connect
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:509)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:684)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createBareChannel(CachingConnectionFactory.java:634)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.getCachedChannelProxy(CachingConnectionFactory.java:608)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.getChannel(CachingConnectionFactory.java:499)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.access$1600(CachingConnectionFactory.java:100)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory$ChannelCachingConnectionProxy.createChannel(CachingConnectionFactory.java:1331)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:1967)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1935)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1916)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:393)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1722)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1026)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1102)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1054)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:994)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:462)
+	... 13 common frames omitted

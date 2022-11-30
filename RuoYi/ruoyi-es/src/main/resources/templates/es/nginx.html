@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh" xmlns:th="http://www.thymeleaf.org" xmlns:shiro="http://www.pollix.at/thymeleaf/shiro">
+<head>
+    <th:block th:include="include :: header('nginx日志')" />
+</head>
+
+<!--<head th:include="include :: header"></head>-->
+<body class="gray-bg">
+<div class="container-div">
+    <div class="row">
+        <div class="col-sm-12">
+            <form id="formId">
+                <div class="select-list">
+                    <ul>
+                        <li>
+                            关键词搜索： <input type="text" id="keyword"/>
+                        </li>
+                        <li>
+                            <input type="hidden" id="type" value="es">
+                            <a class="btn btn-warning" onclick="searchMysqlES('es')"><i class="fa fa-refresh"></i>&nbsp;ES搜索</a>
+                        </li>
+                    </ul>
+                </div>
+            </form>
+
+        </div>
+        <!--			<div class="btn-group-sm" id="toolbar" role="group">-->
+        <!--				<a class="btn btn-success" onclick="$.operate.add()">-->
+        <!--					<i class="fa fa-plus"></i> 添加-->
+        <!--				</a>-->
+        <!--				<a class="btn btn-primary single disabled" onclick="$.operate.edit()" >-->
+        <!--					<i class="fa fa-edit"></i> 修改-->
+        <!--				</a>-->
+        <!--			</div>-->
+        <div class="col-sm-12 select-table table-striped">
+            <table id="bootstrap-table" data-mobile-responsive="true"></table>
+        </div>
+    </div>
+</div>
+<th:block th:include="include :: footer" />
+<script th:inline="javascript">
+    var prefix = ctx + "es";
+    function searchMysqlES(type) {
+        $("#type").val(type);
+        var keyword = $("#keyword").val();
+        if (keyword == null || keyword == "") {
+            alert("请输入搜索内容");
+            return;
+        }
+        var url = prefix + '/search/' + type + "/" +keyword;
+        createMenuItem(url, type+"搜索内容");
+        // $.ajax({
+        // 	url: prefix + "/search",
+        // 	type:"post",
+        // 	dataType:"json",
+        // 	data:{"type":type,"keyword":keyword},
+        // 	success:function(data){
+        // 		console.log(JSON.stringify(data))
+        //
+        // 		$("#bootstrap-table").empty();
+        // 		$("#bootstrap-table").append("<tr><td>IP</td><td>SrcIP</td><td>操作 / <a href='add'>添加</a></td></tr>");
+        // 		for(var i=0;i<data.list.length;i++){
+        // 			$("#bootstrap-table").append("<tr><td>"+data.list[i].IP+"</td><td>"+data.list[i].SrcIP+"</td><td><button onclick='findById("+data.list[i].id+")'>修改</button> <button onclick='deleteById("+data.list[i].id+")'>删除</button> </td></tr>")
+        // 		}
+        // 		$("#totalTimeMillis").text(data.totalTimeMillis)
+        // 		$("#count").text(data.list.length)
+        // 	},error:function (data) {
+        // 		console.log("网络异常")
+        // 	}
+        // })
+    }
+
+    function queryParams(parames) {
+        searchMysqlES("mysql");
+        var params = $.table.queryParams(parames);
+        params["type"] =$("#type").val();
+        params["keyword"] = $("#keyword").val();
+        return params;
+    }
+
+    $(function () {
+        var options = {
+            url: prefix + "/selectAllNginx",
+            sidePagination: "client",
+            columns: [
+                {
+                    field: 'remote_addr',
+                    title: 'remote_addr'
+                },
+                {
+                    field: 'host',
+                    title: 'host'
+                },
+                {
+                    field: 'rps_status',
+                    title: 'rps_status'
+                },
+                {
+                    field: 'req_uri',
+                    title: 'req_uri'
+                },
+            ]
+        };
+        $.table.init(options);
+    });
+
+</script>
+</body>
+</html>

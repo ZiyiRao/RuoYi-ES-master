@@ -1,0 +1,6 @@
+20:48:49.261 [schedule-pool-2] INFO  sys-user - [run,109] - [127.0.0.1]内网IP[admin][Success][登录成功]
+22:35:19.472 [restartedMain] INFO  sys-user - [shutdownAsyncManager,62] - ====关闭后台任务任务线程池====
+22:35:19.473 [restartedMain] INFO  sys-user - [shutdownEhCacheManager,75] - ====关闭缓存====
+22:37:34.930 [restartedMain] INFO  sys-user - [shutdownAsyncManager,62] - ====关闭后台任务任务线程池====
+22:37:34.932 [restartedMain] INFO  sys-user - [shutdownEhCacheManager,75] - ====关闭缓存====
+22:42:43.286 [schedule-pool-2] INFO  sys-user - [run,109] - [127.0.0.1]内网IP[admin][Success][登录成功]

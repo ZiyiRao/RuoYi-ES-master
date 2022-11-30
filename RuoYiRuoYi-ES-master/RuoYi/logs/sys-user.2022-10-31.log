@@ -1,0 +1,13 @@
+18:19:47.696 [schedule-pool-1] INFO  sys-user - [run,109] - [127.0.0.1]内网IP[admin][Success][登录成功]
+18:28:56.051 [schedule-pool-2] INFO  sys-user - [run,109] - [127.0.0.1]内网IP[admin][Success][登录成功]
+18:46:45.990 [schedule-pool-2] INFO  sys-user - [run,109] - [127.0.0.1]内网IP[admin][Success][登录成功]
+18:49:43.675 [schedule-pool-2] INFO  sys-user - [run,109] - [127.0.0.1]内网IP[admin][Success][登录成功]
+18:54:25.531 [schedule-pool-2] INFO  sys-user - [run,109] - [127.0.0.1]内网IP[admin][Success][登录成功]
+21:33:19.514 [schedule-pool-2] INFO  sys-user - [run,109] - [127.0.0.1]内网IP[admin][Success][登录成功]
+21:43:47.830 [schedule-pool-2] INFO  sys-user - [run,109] - [127.0.0.1]内网IP[admin][Success][登录成功]
+21:46:54.454 [schedule-pool-2] INFO  sys-user - [run,109] - [127.0.0.1]内网IP[admin][Success][登录成功]
+21:48:41.295 [schedule-pool-2] INFO  sys-user - [run,109] - [127.0.0.1]内网IP[admin][Success][登录成功]
+21:49:34.839 [Thread-104] INFO  sys-user - [shutdownSpringSessionValidationScheduler,45] - ====关闭会话验证任务====
+21:49:34.840 [Thread-104] INFO  sys-user - [shutdownAsyncManager,62] - ====关闭后台任务任务线程池====
+21:49:34.840 [Thread-104] INFO  sys-user - [shutdownEhCacheManager,75] - ====关闭缓存====
+21:52:36.378 [schedule-pool-2] INFO  sys-user - [run,109] - [127.0.0.1]内网IP[admin][Success][登录成功]

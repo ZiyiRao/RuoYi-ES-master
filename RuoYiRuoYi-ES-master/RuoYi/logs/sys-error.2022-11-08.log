@@ -1,0 +1,8 @@
+07:38:40.072 [AMQP Connection 192.168.80.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1468] - Channel shutdown: connection error
+07:38:40.221 [AMQP Connection 192.168.80.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1468] - Channel shutdown: connection error
+07:38:40.222 [AMQP Connection 192.168.80.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1468] - Channel shutdown: connection error
+07:38:40.222 [AMQP Connection 192.168.80.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1468] - Channel shutdown: connection error
+07:38:40.223 [AMQP Connection 192.168.80.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1468] - Channel shutdown: connection error
+07:38:41.251 [AMQP Connection 192.168.80.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1468] - Channel shutdown: connection error
+07:38:41.251 [AMQP Connection 192.168.80.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1468] - Channel shutdown: connection error
+07:38:41.252 [AMQP Connection 192.168.80.1:5672] ERROR o.s.a.r.c.CachingConnectionFactory - [log,1468] - Channel shutdown: connection error
